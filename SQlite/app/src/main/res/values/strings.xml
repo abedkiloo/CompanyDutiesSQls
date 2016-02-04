@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SQlite</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="listJobs">
+        <item>Accounts</item>
+        <item>ICT</item>
+        <item>Human Rsource</item>
+        <item>Support</item>
+        <item>Marketing</item>
+        <item>POst 6</item>
+        <item>POst 7</item>
+        <item>POst 8</item>
+        <item>POst 9</item>
+        <item>POst 10</item>
+        <item>POst 11</item>
+        <item>POst 12</item>
+    </string-array>
+    <string name="title_activity_department_list">DepartmentList</string>
+    <string name="title_activity_ict">ICT</string>
+</resources>
