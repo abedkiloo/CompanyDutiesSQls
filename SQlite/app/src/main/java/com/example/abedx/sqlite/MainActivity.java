@@ -132,6 +132,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnDepartmentList(View view) {
-    startActivity(new Intent(MainActivity.this,DepartmentList.class));
+    startActivity(new Intent(MainActivity.this,SQLITEDepartmentsList.class));
     }
 }

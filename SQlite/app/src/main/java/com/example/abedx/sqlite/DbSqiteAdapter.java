@@ -50,7 +50,7 @@ public class DbSqiteAdapter {
         String[] columns = {dbSQlite.F_NAME};
         //specify a cursor object to get the specified data with its query
         Cursor cursor = db.query(dbSQlite.TABLE_NAME, columns, dbSQlite.F_NAME + "='" + name + "'", null, null, null, null);
-        //create an istance of string object to help append the data
+        //create an instance of string object to help append the data
         StringBuffer stringBuffer = new StringBuffer();
         //move through the records searching a specified record
         while (cursor.moveToNext()) {
@@ -123,7 +123,7 @@ public class DbSqiteAdapter {
         @Override
         public void onCreate(SQLiteDatabase db) {
             db.execSQL(CREATE_TABLE);
-            MessageClass.message(context, "onCreate Called");
+            MessageClass.message(context, "Table Called");
         }
 
 
@@ -133,4 +133,5 @@ public class DbSqiteAdapter {
             onCreate(db);
         }
     }
+
 }

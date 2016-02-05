@@ -17,4 +17,5 @@
     </string-array>
     <string name="title_activity_department_list">DepartmentList</string>
     <string name="title_activity_ict">ICT</string>
+    <string name="title_activity_departments_list">DepartmentsList</string>
 </resources>
